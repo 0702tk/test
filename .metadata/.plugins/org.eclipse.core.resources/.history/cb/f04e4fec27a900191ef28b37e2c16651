@@ -1,0 +1,26 @@
+package jp.co.internous.action;
+
+public class Test {
+	
+	public static void main(String[]args){
+		Person kozin= new Person();
+		kozin.name="山田太郎";
+		kozin.age=20;
+		
+		System.out.println(kozin.name);
+		System.out.println(kozin.age);
+		
+		kozin.name="木村次郎";
+		kozin.age=18;
+		
+		System.out.println(kozin.name);
+		System.out.println(kozin.age);
+		
+		kozin.name="鈴木花子";
+		kozin.age=16;
+		
+		
+		
+	}
+
+}
