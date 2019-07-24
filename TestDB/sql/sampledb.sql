@@ -1,6 +1,6 @@
-drop database if exists sampledb;
-create database sampledb;
-use sampledb;
+drop database if exists sampledb7;
+create database sampledb7;
+use sampledb7;
 
 create table sample_table(
 No int,
