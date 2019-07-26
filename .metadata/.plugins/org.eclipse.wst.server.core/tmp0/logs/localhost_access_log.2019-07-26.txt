@@ -1,0 +1,4 @@
+127.0.0.1 - - [26/Jul/2019:17:36:26 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [26/Jul/2019:17:36:27 +0900] "GET /HelloServlet/ HTTP/1.1" 200 383
+0:0:0:0:0:0:0:1 - - [26/Jul/2019:17:36:38 +0900] "GET /HelloServlet/inquiry.jsp HTTP/1.1" 200 618
+0:0:0:0:0:0:0:1 - - [26/Jul/2019:17:36:46 +0900] "POST /HelloServlet/InquiryServlet HTTP/1.1" 200 103
