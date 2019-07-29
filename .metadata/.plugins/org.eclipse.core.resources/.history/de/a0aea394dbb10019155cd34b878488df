@@ -1,0 +1,5 @@
+package com.internoudev.login.action;
+
+public class LoginAction {
+
+}
