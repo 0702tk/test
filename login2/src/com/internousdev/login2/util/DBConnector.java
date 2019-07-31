@@ -1,5 +1,6 @@
 package com.internousdev.login2.util;
 import java.sql.Connection;
+import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DBConnector {
@@ -14,7 +15,7 @@ public class DBConnector {
 
 	try{
 		Class.forName(driverName);
-		conn = (Connection) DriverManagger.getConnection(url,user,password);
+		conn = (Connection) DriverManager.getConnection(url,user,password);
 	}
 	catch(ClassNotFoundException e){
 		e.printStackTrace();
